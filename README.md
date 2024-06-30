@@ -39,7 +39,6 @@ This is a sample app that combines Elasticsearch, Langchain and a number of diff
 
 **Requires at least 8.11.0 of Elasticsearch.**
 
-![Screenshot of the sample app](./app-demo.gif)
 
 ## Download the Project
 
