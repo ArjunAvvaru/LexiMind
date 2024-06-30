@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-size: 14px;
+}
+
+@font-face {
+  font-family: Inter var;
+  font-weight: 100 900;
+  font-display: block;
+  font-style: normal;
+  font-named-instance:"Regular";src: url(media/Inter-roman-latin.var.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: Inter var;
+  font-weight: 100 900;
+  font-display: block;
+  font-style: italic;
+  font-named-instance:"Italic";src: url(media/Inter-roman-latin.var.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: GitLab Sans;
+  font-weight: 100 900;
+  font-display: block;
+  font-style: normal;
+  font-named-instance:"Regular";src: url(media/GitLabSans.woff2) format("woff2")
+}
+
+@font-face {
+  font-family: GitLab Sans;
+  font-weight: 100 900;
+  font-display: block;
+  font-style: italic;
+  font-named-instance:"Italic";src: url(media/GitLabSans-Italic.woff2) format("woff2")
+}
+
+body {
+  margin: 0;
+  font-family: "Inter var", "GitLab Sans", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  text-rendering: optimizeLegibility !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+  @apply bg-gray-100 antialiased;
+  background: linear-gradient(to bottom, #202020, #0a0a0a 10%, #0a0a0a 90%, #202020) !important;
+}
+
+@keyframes rotateBackground {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.background-pattern {
+  content: url("images/Background\ Pattern.svg") !important;
+  animation: rotateBackground 350s linear infinite;
+  overflow: auto;
+  width: 120vw;
+  height: auto;
+  position: fixed;
+  right: -50vw;
+  top: -50vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:hover {
+  background: #d9d9d9;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border: 1px solid #d9d9d9;
+}

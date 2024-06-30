@@ -1,0 +1,4 @@
+.euiTab,
+.euiTab.euiTab-isSelected {
+    @apply text-slate-700
+}

@@ -1,0 +1,14 @@
+.chat-mode-select::-webkit-scrollbar {
+    width: 5px;
+}
+
+.chat-mode-select::-webkit-scrollbar-thumb {
+    background: #27303f;
+    border-radius: 5px;
+}
+
+.chat-mode-select::-webkit-scrollbar-track {
+    background: #4e6180;
+    border: 1px solid #323e51;
+    border-radius: 5px;
+}

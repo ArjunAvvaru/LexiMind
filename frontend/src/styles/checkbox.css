@@ -1,0 +1,4 @@
+input[type="checkbox"]:checked {
+    background: url("data:image/svg+xml;charset=utf-8;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMSIgaGVpZ2h0PSI5IiB2aWV3Qm94PSIwIDAgMTEgOSI+DQogIDxwb2x5Z29uIGZpbGw9IiNGRkYiIHBvaW50cz0iOS40OTkgMTcuMjkzIDEwLjkxNCAxOC43MDcgNC40NjggMjUuMTUzIC4yOTMgMjAuOTc4IDEuNzA3IDE5LjU2NCA0LjQ2OCAyMi4zMjQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTE3KSIvPg0KPC9zdmc+") center center no-repeat;
+    @apply bg-blue-500
+}

@@ -1,0 +1,49 @@
+/*.euiMarkdownFormat p+ul,
+.euiMarkdownFormat p+ol {
+    margin-top: -20px;
+}
+
+.euiMarkdownFormat ol li:has(p) {
+    white-space: nowrap;
+}
+
+.euiMarkdownFormat li p {
+    white-space: normal;
+}
+
+.euiMarkdownFormat p {
+    margin-bottom: 0;
+}*/
+
+.euiLink {
+    @apply text-sky-600 whitespace-normal !important;
+    word-break: break-all;
+}
+
+.euiLink:hover {
+    @apply text-orange-300 !important
+}
+
+.euiLink:visited {
+    @apply text-purple-600 !important
+}
+
+table {
+    @apply min-w-full divide-y divide-gray-200 border rounded-md;
+}
+
+table thead {
+    @apply bg-gray-200;
+}
+
+table th {
+    @apply px-6 py-3 text-left text-xs text-black font-semibold uppercase tracking-wider;
+}
+
+table tbody {
+    @apply bg-white divide-y divide-gray-200;
+}
+
+table td {
+    @apply px-6 py-4 whitespace-nowrap;
+}

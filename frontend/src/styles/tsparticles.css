@@ -1,0 +1,10 @@
+#tsparticles canvas {
+    background: linear-gradient(to bottom, #212134, #12122b 10%, #12122b 90%, #212134) !important;
+    background-color: transparent !important;
+    background-repeat: no-repeat !important;
+}
+
+#tsparticles {
+    position: relative;
+    z-index: -1;
+}
