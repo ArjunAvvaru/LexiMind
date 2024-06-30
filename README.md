@@ -33,7 +33,6 @@ Experience the future of data exploration. Let’s collaborate!
 📬 Reach Out:
 
 Feel free to connect! Let’s discuss how LexiMind can revolutionize your data workflows.
-Remember, Arjun, your passion and expertise shine through this post. Recruiters and decision-makers will be intrigued by LexiMind’s capabilities. Best of luck, and keep innovating! 🌟🔥
 
 This is a sample app that combines Elasticsearch, Langchain and a number of different LLMs to create a chatbot experience with ELSER with your own private data.
 
