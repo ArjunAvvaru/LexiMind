@@ -221,9 +221,9 @@ By default, this will index the data into the `workplace-app-docs` index. You ca
 
 ##### Indexing your own data
 
-The ingesting logic is stored in `data/index-data.py`. This is a simple script that uses Langchain to index data into Elasticsearch, using the `JSONLoader` and `CharacterTextSplitter` to split the large documents into passages. Modify this script to index your own data.
+The ingesting logic is stored in `data/index-data.py`. This is a simple script that uses Langchain to index data into Elasticsearch, using the `CSVLoader` and `RecursiveCharacterTextSplitter` to split the large documents into passages. Modify this script to index your own data.
 
-Langchain offers many different ways to index data, if you cant just load it via JSONLoader. See the [Langchain documentation](https://python.langchain.com/docs/modules/data_connection/document_loaders)
+Langchain offers many different ways to index data, if you cant just load it via CSVLoader. See the [Langchain documentation](https://python.langchain.com/docs/modules/data_connection/document_loaders)
 
 Remember to keep the `ES_INDEX` environment variable set to the index you want to index into and to query from.
 
