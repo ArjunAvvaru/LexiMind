@@ -1,0 +1,119 @@
+1
+00:00:00,040 --> 00:00:02,405
+Lexi Mind is an AI based search engine
+
+2
+00:00:02,405 --> 00:00:04,811
+that seamlessly integrates Elasticsearch,
+
+3
+00:00:04,891 --> 00:00:07,296
+Python and React to provide quick and
+
+4
+00:00:07,296 --> 00:00:09,461
+efficient search results with a feature
+
+5
+00:00:09,461 --> 00:00:10,663
+to chat about your data.
+
+6
+00:00:13,959 --> 00:00:15,721
+When you search for something, you
+
+7
+00:00:15,721 --> 00:00:17,604
+receive search results that match not
+
+8
+00:00:17,604 --> 00:00:20,568
+only in text but also semantically thanks
+
+9
+00:00:20,568 --> 00:00:23,251
+to AI. Additionally, you can get a
+
+10
+00:00:23,251 --> 00:00:25,454
+quick answer about your search directly
+
+11
+00:00:25,454 --> 00:00:27,216
+from your data. If you wish to delve
+
+12
+00:00:27,216 --> 00:00:29,780
+deeper into the AI answer, you can engage
+
+13
+00:00:29,780 --> 00:00:31,702
+in a follow up conversation as well.
+
+14
+00:00:59,320 --> 00:01:01,123
+Lexi Mind enables you to engage in
+
+15
+00:01:01,123 --> 00:01:03,285
+conversations about your document with
+
+16
+00:01:03,365 --> 00:01:06,248
+AI. With the Doc Chat feature, you
+
+17
+00:01:06,248 --> 00:01:08,371
+can upload your documents and wait for
+
+18
+00:01:08,371 --> 00:01:10,213
+them to be processed before initiating a
+
+19
+00:01:10,213 --> 00:01:12,335
+conversation. After the processing is
+
+20
+00:01:12,335 --> 00:01:15,138
+complete, you can ask questions regarding
+
+21
+00:01:15,138 --> 00:01:17,141
+the uploaded documents and receive prompt
+
+22
+00:01:17,221 --> 00:01:19,703
+answers. Compete with page references.
+
+23
+00:01:44,562 --> 00:01:46,689
+The analyzer feature allows you to upload
+
+24
+00:01:46,689 --> 00:01:49,618
+a spreadsheet and conduct analysis will
+
+25
+00:01:49,618 --> 00:01:51,705
+generate conversations based on it.
+
+26
+00:02:13,531 --> 00:02:15,859
+You can ask it to create lists,
+
+27
+00:02:15,859 --> 00:02:18,347
+tables or plots the data as well,
+
+28
+00:02:18,828 --> 00:02:20,594
+as demonstrated in the video.
+
+29
+00:03:21,207 --> 00:03:23,417
+Ultimately, you can obtain a
+
+30
+00:03:23,417 --> 00:03:26,149
+presentation of your entire conversation.
