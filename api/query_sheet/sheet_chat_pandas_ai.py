@@ -51,7 +51,7 @@ def sheet_ask_question_pandas_ai(question, session_id, files, start_time=time.ti
     llm.model="gpt-3.5-turbo"
 
     save_charts_path = os.path.abspath(EXPORT_PATH)
-    pandas_ai = SmartDatalake(dfs=dfs, config={"llm": llm, "save_charts": True, "open_charts": False, "save_charts_path": EXPORT_PATH,"enable_cache":False, "enable_privacy":False})
+    pandas_ai = SmartDatalake(dfs=dfs, config={"llm": llm, "save_charts": True, "open_charts": False, "save_charts_path": EXPORT_PATH,"enable_cache":False, "enable_privacy":True})
 
     answer = ""
     
