@@ -8,44 +8,53 @@ LexiMind seamlessly integrates three powerful components:
 Search Engine: Built on ElasticSearch, LexiMind rapidly retrieves relevant information from vast datasets using vector-based techniques.
 Conversational Companion: Imagine having a dialogue with your data. LexiMind allows you to converse, query, and explore insights directly within the platform.
 Document and Sheet Integration: Upload PDFs or spreadsheets, and LexiMind turns them into dynamic conversations.
+
 🌟 Key Features:
 
 Semantic Search: Beyond simple keywords, LexiMind understands context and intent. It’s like having a data-savvy colleague who anticipates your needs.
 PPT Generation: Transform conversations into polished presentations effortlessly. Share insights with stakeholders in a professional format.
+
 Conversational Exploration:
 PDF Conversations: Upload research papers, reports, or manuals. LexiMind extracts key points and allows you to discuss findings collaboratively.
 Sheet Conversations: Dive into spreadsheet data. Ask questions, analyze trends, and gain deeper insights—all within LexiMind.
+
 Customizable Algorithms:
 Multiquery retrieval (already implemented) can be extended to a cross encoder for even better results.
 Explore alternatives like graph-based algorithms, Named Entity Recognition (NER), or agent-based tools.
 Efficient Data Retrieval:
-Nested passages enhance retrieval speed. No more waiting for insights!
+Nested passages enhance retrieval speed.
 Aggregations and filters allow precise exploration.
 Pagination ensures smooth navigation through results.
+
 🌐 Privacy and Deployment:
 
 LexiMind respects data privacy. For organizations needing in-house solutions, it’s deployable on your production-ready servers.
 Whether you’re a startup, enterprise, or research institution, LexiMind adapts to your unique requirements.
+
 🔗 Get Started:
 
-Clone LexiMind from my GitHub repo (link below). Connect it to OpenAI APIs or other LLM endpoints as described in the README.
+Clone LexiMind from my GitHub repo (link below). Connect it to OpenAI APIs or Local Server made using LMStudio/Ollama or other LLM endpoints as described in the README.
 Experience the future of data exploration. Let’s collaborate!
+
 📬 Reach Out:
 
 Feel free to connect! Let’s discuss how LexiMind can revolutionize your data workflows.
+
+Email: arjun.avvaru1707@gmail.com
+LinkedIn: [arjunavvaru](https://www.linkedin.com/in/arjunavvaru)
 
 This is a sample app that combines Elasticsearch, Langchain and a number of different LLMs to create a chatbot experience with ELSER with your own private data.
 
 **Requires at least 8.11.0 of Elasticsearch.**
 
 
-## Download the Project
+## Clone the Project
 
-Download the project from Github and extract the `chatbot-rag-app` folder.
+Clone the project from Github
 
 ```bash
-curl https://codeload.github.com/elastic/elasticsearch-labs/tar.gz/main | \
-tar -xz --strip=2 elasticsearch-labs-main/example-apps/chatbot-rag-app
+git clone https://github.com/ArjunAvvaru/LexiMind.git
+cd LexiMind
 ```
 
 ## Installing and connecting to Elasticsearch
@@ -159,7 +168,7 @@ Once you have indexed data into the Elasticsearch index, there are two ways to r
 Build the Docker image and run it with the following environment variables.
 
 ```sh
-docker build -f Dockerfile -t chatbot-rag-app .
+docker build -f Dockerfile -t LexiMind.
 ```
 
 #### Ingest data
@@ -167,17 +176,17 @@ docker build -f Dockerfile -t chatbot-rag-app .
 Make sure you have a `.env` file with all your variables, then run:
 
 ```sh
-docker run --rm --env-file .env chatbot-rag-app flask create-index
+docker run --rm --env-file .env LexiMind flask create-index
 ```
 
 See "Ingest data" section under Running Locally for more details about the `flask create-index` command.
 
 #### Run API and frontend
 
-You will need to set the appropriate environment variables in your `.env` file. See the `env.example` file for instructions.
+You will need to set the appropriate environment variables in your `.env` file.
 
 ```sh
-docker run --rm -p 4000:4000 --env-file .env -d chatbot-rag-app
+docker run --rm -p 4000:4000 --env-file .env -d LexiMind
 ```
 
 ### Locally (for development)
