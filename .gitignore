@@ -1,8 +1,8 @@
 frontend/build
 frontend/node_modules
 frontend/yarn.lock
-data/uploads
-data/exports
+data/uploads/*
+data/exports/*
 __pycache__/
 /cache
 .venv
