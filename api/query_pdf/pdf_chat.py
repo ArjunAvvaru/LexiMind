@@ -34,11 +34,12 @@ def pdf_ask_question(question, session_id, files, start_time=time.time()):
     multiquery_retrived_docs = multiquery_ret.invoke(question)
     if len(multiquery_retrived_docs)>0:
             context=""
+            multiquery_retrived_docs = multiquery_retrived_docs[:4]
             msg_source_docs = multiquery_retrived_docs
             for doc in msg_source_docs:
                 for key, value in doc.dict().items():
                     if key == "page_content":
-                        context += value+'\n'
+                        context += "Match Part of the Document:"+value+'\n'
                     elif key == "metadata":
                         for k, v in value.items():
                             context += f"{k}:{str(v)}\n"

@@ -49,5 +49,5 @@ llm_chain_instructions="""
              - Response should be precise with no Human conversations.
              - Answer the question in pretty looking readable format by human.
              - If you are not able to answer the QUESTION from below CONTEXT, strictly say that you don't know, don't try to make up an answer.
-             - At the end of Response always return all sources to your answer as a consolidated list, with clickable links using [TITLE](URL) format.
+             - At the end of Response always return all sources to your answer as a consolidated list, with clickable links using [TITLE](Wiki Page) format.
              """

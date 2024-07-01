@@ -71,7 +71,7 @@ def ask_question(question, session_id, action, llm_model, semantic_enable, resul
             for doc in msg_source_docs:
                 for key, value in doc.dict().items():
                     if key == "page_content":
-                        context += value+'\n'
+                        context += 'Matching Part of the Plot:'+value+'\n'
                     elif key == "metadata":
                         for k, v in value.items():
                             context += f"{k}:{str(v)}\n"

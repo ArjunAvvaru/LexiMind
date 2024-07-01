@@ -13,4 +13,4 @@ def pdf_retriever(index):
     )
 
 
-    return store.as_retriever(search_kwargs={'k': 1, 'fetch_k': 10})
+    return store.as_retriever(search_kwargs={'k': 4, 'fetch_k': 20})
