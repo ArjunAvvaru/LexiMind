@@ -9,6 +9,8 @@ Search Engine: Built on ElasticSearch, LexiMind rapidly retrieves relevant infor
 Conversational Companion: Imagine having a dialogue with your data. LexiMind allows you to converse, query, and explore insights directly within the platform.
 Document and Sheet Integration: Upload PDFs or spreadsheets, and LexiMind turns them into dynamic conversations.
 
+![LexiMind Demo](demo/LexiMInd Demo.gif)
+
 🌟 Key Features:
 
 Semantic Search: Beyond simple keywords, LexiMind understands context and intent. It’s like having a data-savvy colleague who anticipates your needs.
