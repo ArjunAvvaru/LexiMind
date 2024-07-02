@@ -1,6 +1,6 @@
 # LexiMind
 
-In today’s data-driven landscape, information is the new gold. Yet, sifting through mountains of data can be an arduous task. Enter LexiMind, a cutting-edge Retrieval Augmented Generative (RAG) AI-powered solution that transforms the way we interact with data.
+In today’s data-driven landscape, information is the new gold. Yet, shifting through mountains of data can be an arduous task. Enter LexiMind, a cutting-edge Retrieval Augmented Generative (RAG) AI-powered solution that transforms the way we interact with data.
 
 🚀 What Is LexiMind?
 
